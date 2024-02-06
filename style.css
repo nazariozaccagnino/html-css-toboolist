@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;    
 }
 header{
     margin: 0 auto;       
@@ -14,7 +15,7 @@ header{
 .title{
     font-size: 55px;
     vertical-align: middle;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .container{
@@ -42,14 +43,7 @@ header{
     background-color: white;
     color: lightgray;
 }
-.bluesquare-type2{/* style of more rounded blue square */
-    display: inline-block;
-    border-radius: 30px;
-    padding: 5px;
-    background-color: #47ADF1;
-    color: white;
-    font-size: 0.87em;
-}
+
 .square{/* style of more rounded square */
         display: inline-block;
         border-radius: 30px;
@@ -57,6 +51,10 @@ header{
         padding-right: 10px;
         color: white;
         font-size: 0.87em;
+        margin: 3px;
+}
+.blue{
+    background-color: #47ADF1;    
 }
 .green{
     background-color: #64C0A8;
@@ -74,11 +72,14 @@ header{
     background-color: #B0C926;
 }
 /* end of button collection */
+
 .nav{
     background-color: white;
     padding-top: 20px;
     padding-left: 50px;
     padding-bottom: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
        
 }
 article{
