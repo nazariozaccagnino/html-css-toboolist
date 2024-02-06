@@ -27,6 +27,14 @@ header div{/* test */
     background-color: #47ADF1;
     color: white;
 }
+.whitesquare{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: white;
+    color: lightgray;
+}
 .bluesquare-type2{/* style of more rounded blue square */
     display: inline-block;
     border-radius: 30px;
@@ -35,29 +43,27 @@ header div{/* test */
     color: white;
     font-size: 0.87em;
 }
-.greensquare{/* style of more rounded blue square */
+.square{/* style of more rounded blue square */
         display: inline-block;
         border-radius: 30px;
         padding: 5px;
-        background-color: #64C0A8;
         color: white;
         font-size: 0.87em;
 }
-.purplesquare{
-    display: inline-block;
-    border-radius: 30px;
-    padding: 5px;
-    background-color: #9C72E4;
-    color: white;
-    font-size: 0.87em;
+.green{
+    background-color: #64C0A8;
 }
-.whitesquare{
-    display: inline-block;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 7px;
-    background-color: white;
-    color: lightgray;
+.purple{
+    background-color: #9C72E4;
+}
+.orange{
+    background-color: #F29E33;
+}
+.fuchsia{
+    background-color: #D863A0;
+}
+.lightgreen{
+    background-color: #B0C926s;
 }
 
 .nav{
@@ -94,4 +100,5 @@ article{
 .menu{
     line-height: 40px;
     list-style: none;
+    margin-bottom: 20px;
 }
