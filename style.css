@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#F6F8F9;
+}
+
+header div{/* test */
+    background-color: blueviolet;
+    display: inline-block;
+}
+
+.square{/* style of blue square */
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #47ADF1;
+    color: white;
+}
