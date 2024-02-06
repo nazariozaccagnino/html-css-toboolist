@@ -30,16 +30,26 @@ header div{/* test */
 .bluesquare-type2{/* style of more rounded blue square */
     display: inline-block;
     border-radius: 30px;
-    padding: 7px;
+    padding: 5px;
     background-color: #47ADF1;
     color: white;
+    font-size: 0.87em;
+}
+.greensquare{/* style of more rounded blue square */
+        display: inline-block;
+        border-radius: 30px;
+        padding: 5px;
+        background-color: #64C0A8;
+        color: white;
+        font-size: 0.87em;
 }
 .purplesquare{
     display: inline-block;
     border-radius: 30px;
-    padding: 7px;
+    padding: 5px;
     background-color: #9C72E4;
     color: white;
+    font-size: 0.87em;
 }
 .whitesquare{
     display: inline-block;
@@ -82,6 +92,6 @@ article{
     font-size: 0.85em;
 }
 .menu{
-    line-height: 30px;
+    line-height: 40px;
     list-style: none;
 }
